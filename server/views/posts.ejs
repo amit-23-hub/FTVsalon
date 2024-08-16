@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Posts</title>
+</head>
+<link rel="stylesheet" href="/posts.css" />
+<body>
+    
+    <h1>Posts</h1>
+    <% for(post of posts) { %>
+        <!-- HTML to display each post goes here -->
+        <div>
+            <h3>@ <%= post.name %></h3>
+            <h4> <%= post.id %></h4>
+            <h4> <%= post.comment %></h4>
+            <hr>
+            <form method="post" action="/posts/<%=post.id%>">
+                <input placeholder="...reply" name="replyy"/>
+                <button>reply</button>
+            </form>
+            <% for(n of post.replies){ %>
+                <h6><%= n%></h6>
+            <% } %>    
+            <br>
+            <hr>
+            <form method="post" action="/posts/<%=post.id%>?_method=DELETE">
+                <button>delete</button>
+            </form>
+        </div>
+    <% } %>
+    
+    <a href="http://localhost:3000/posts/new">create new post</a>
+</body>
+</html>

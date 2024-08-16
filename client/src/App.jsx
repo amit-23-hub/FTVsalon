@@ -10,6 +10,7 @@ import Profile from './pages/Profile';
 import Signin from './pages/Signin';
 import Signup from './pages/Signup';
 import About from './pages/about';
+import Blog from './pages/Blog';
 
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="/blog" element={<Blog/>}></Route>
         <Route path='/sign-in' element={<Signin />} />
         <Route path='/sign-up' element={<Signup />} />
         <Route path='/dashboard' element={<Dashaboard />} />

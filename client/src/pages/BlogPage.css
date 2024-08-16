@@ -1,0 +1,110 @@
+/* body{
+    background-color: rgb(119, 113, 214);
+} */
+
+
+/* Hero Section */
+.hero {
+    background: url('./img/blogbg.webp') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero-title {
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .hero-subtitle {
+    font-size: 6.5rem;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+  }
+  
+  /* .container.mt-5 {
+    background-color: rgb(119, 113, 214);
+  } */
+
+  /* Blog Cards */
+  .blog-card {
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .blog-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-body{
+    background-color: rgb(255, 190, 223);
+  }
+  
+  .card-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  /* Footer */
+ 
+footer {
+    background-color: #343a40; 
+    color: #ffffff; 
+    padding: 2rem 0; 
+  }
+  
+  footer .container {
+    max-width: 1200px; 
+  }
+  
+  footer h5 {
+    font-size: 1.25rem; 
+    margin-bottom: 1rem; 
+  }
+  
+  footer .form-control {
+    border-radius: 0; 
+  }
+  
+  footer .btn-primary {
+    border-radius: 0;
+  }
+  
+  footer .list-unstyled {
+    padding-left: 0; 
+  }
+  
+  footer .list-unstyled li {
+    display: inline;
+  }
+  
+  footer .list-unstyled a {
+    color: #ffffff; 
+    font-size: 1.25rem; 
+    transition: color 0.3s; 
+  }
+  
+  footer .list-unstyled a:hover {
+    color: #e9ecef;
+  }
+  
+  footer .text-md-end {
+    text-align: right;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer .social-icons {
+    font-size: 1.5rem; 
+  }
+  

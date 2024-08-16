@@ -35,9 +35,11 @@ const Home = () => {
                     <ul>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
+                        <li><Link to="/blog">Our Blogs</Link></li>
                         <li><Link target='_blank' to="/services">Service</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                         <li><Link to="/sign-up">SignUp</Link></li>
+                        
                         <li className='wap'>
                             <Link target='_blank' to="https://wa.me/9212758888">
                                 <FontAwesomeIcon icon={faWhatsapp} />

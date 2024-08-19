@@ -11,6 +11,7 @@ import Signin from './pages/Signin';
 import Signup from './pages/Signup';
 import About from './pages/about';
 import Blog from './pages/Blog';
+import ChatComponent from './pages/chatComponent';
 
 
 export default function App() {
@@ -27,6 +28,11 @@ export default function App() {
 
         <Route path='login' element={<Login />} />
         <Route path="/" element={<Home />} />
+        <Route path="/mission-and-goal" element={<MissionAndGoal />} />
+
+        <Route path="/chatAI" element={<ChatComponent />} />
+
+
         <Route path="/mission-and-goal" element={<MissionAndGoal />} />
 
 

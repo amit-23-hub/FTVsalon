@@ -62,6 +62,7 @@ const Home = () => {
 
                     <div className="btn">
                         <Link to="/about">About Us</Link>
+
                     </div>
 
                     {/* Add the new button here */}
@@ -71,6 +72,13 @@ const Home = () => {
                             onClick={() => navigate('/mission-and-goal')}
                         >
                             Learn About Our Mission and Goals
+                        </button>
+
+                        <button
+                            className="mission-button"
+                            onClick={() => navigate('/chatAI')}
+                        >
+                            Chat with Beauty AI
                         </button>
                     </div>
                 </div>

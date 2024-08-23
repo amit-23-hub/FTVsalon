@@ -678,7 +678,7 @@ header ul li a:hover {
 }
 
 .mission-button {
-    background-color: #007BFF; /* Adjust color as needed */
+    background-color: #007BFF;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -690,5 +690,26 @@ header ul li a:hover {
 }
 
 .mission-button:hover {
-    background-color: #0056b3; /* Adjust hover color as needed */
+    background-color: #0056b3; 
 }
+
+.booking-button {
+    background-color:#e6e6e6; 
+    color: rgb(232, 9, 244); 
+    padding: 10px 20px; 
+    font-size: 16px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+  }
+  
+  .booking-button:hover {
+    background-color: #cb92c0; 
+    transform: scale(1.05);
+  }
+  
+  .booking-button:focus {
+    outline: none; 
+    box-shadow: 0 0 0 3px rgba(72, 207, 173, 0.5); 
+  }

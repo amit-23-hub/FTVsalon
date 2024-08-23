@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faGoogle, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { Link, useNavigate } from 'react-router-dom';
+import Gridview from '../components/Gridview'
 import './HomeCSS/home.css';
 import './HomeCSS/MediaQuery.css';
 
@@ -36,7 +37,7 @@ const Home = () => {
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/blog">Our Blogs</Link></li>
-                        <li><Link target='_blank' to="/services">Service</Link></li>
+                        <li><Link target='_blank' to="/service">Service</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                         <li><Link to="/sign-up">SignUp</Link></li>
                         
@@ -95,6 +96,11 @@ const Home = () => {
                 </div>
             </section>
 
+            <section>
+                <Gridview/>
+            </section>
+
+
             <section className="sectionThree">
                 <h2>Services For Every Occasion</h2>
                 <p>At FTV Salon , We offer services for every Occasion.</p>
@@ -128,7 +134,13 @@ const Home = () => {
                     <h2>Book Your Appointment Now And Get Exciting Offers !</h2>
                 </div>
 
-                <Link to="#">BOOK AN APPOINTMENT</Link>
+                <div className="btn">
+                <button className="booking-button"
+                onClick={() => navigate('/appointment-form')}
+                >
+                Book an Appointment
+                </button>
+                </div>
             </section>
 
             <div className="transformBox">

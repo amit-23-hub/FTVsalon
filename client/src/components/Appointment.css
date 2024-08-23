@@ -1,0 +1,26 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .fc {
+    max-width: 800px;
+    margin: 40px auto;
+  }
+  
+  .fc-toolbar {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .fc-day-grid-event {
+    background-color: #87ceeb;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .fc-day-grid-event:hover {
+    background-color: #66d9ef;
+  }

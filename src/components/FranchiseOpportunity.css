@@ -1,0 +1,38 @@
+.franchise-opportunity {
+  background-color: #3e3e3e;
+  color: white;
+  padding: 50px;
+  text-align: left;
+}
+
+.franchise-opportunity h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #e0e0e0;
+}
+
+.franchise-opportunity p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.franchise-opportunity .highlight {
+  font-weight: bold;
+  color: #ff3333;
+}
+
+.franchise-opportunity .content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px; /* Added gap between image and text */
+}
+
+.franchise-opportunity .image-box {
+  width: 45%; /* Adjusted width to give more space to the text */
+}
+
+.franchise-opportunity .image-box img {
+  width: 100%;
+  border-radius: 10px;
+}

@@ -1,0 +1,32 @@
+.founder-section {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.image-container {
+  width: 45%; /* Adjusted to balance text and image */
+  margin-left: 20px;
+  order: 2; /* To place the image on the right */
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text-content {
+  width: 55%;
+}
+
+.text-content h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}

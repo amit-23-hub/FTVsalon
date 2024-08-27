@@ -1,0 +1,91 @@
+.contact-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #3e3e3e;
+  }
+  
+  .image-container {
+    flex: 1;
+    max-width: 35%; /* Reduced the max-width for a smaller image size */
+    margin-right: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .form-container {
+    flex: 1;
+    max-width: 60%; /* Adjusted the form width to balance with the smaller image */
+    background-color: #000;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 0 10px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #222;
+    color: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .form-group select {
+    appearance: none;
+    background: #222 url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-chevron-down" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.646 5.354a.5.5 0 0 1 .708 0L8 11.293l5.646-5.939a.5.5 0 0 1 .708.708l-6 6.303a.5.5 0 0 1-.708 0l-6-6.303a.5.5 0 0 1 0-.708z"/> </svg>') no-repeat right 10px center;
+    background-size: 16px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  

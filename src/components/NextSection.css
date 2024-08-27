@@ -1,0 +1,43 @@
+/* src/components/NextSection.css */
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #3E3E3E;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.image-section {
+  max-width: 50%; /* Adjust this as needed to make the image larger */
+  flex-basis: 50%;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  border: 5px solid #9F3F3F;
+}
+
+.text-section {
+  max-width: 45%; /* Adjust this to balance the text area */
+  padding-left: 20px;
+  flex-basis: 45%;
+}
+
+.text-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.text-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.text-section li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}

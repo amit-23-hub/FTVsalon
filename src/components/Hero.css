@@ -1,0 +1,21 @@
+/* src/components/Hero.css */
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #9F3F3F;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

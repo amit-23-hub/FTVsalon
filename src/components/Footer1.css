@@ -1,0 +1,71 @@
+.footer {
+    background-color: #666666;
+    padding: 40px 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin: 0 20px;
+
+  }
+  
+  .footer-logo, .footer-fashiontv-logo {
+    max-width: 500px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .red-line {
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    margin: 10px 0;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #ddd;
+  }
+  
+  .footer22
+  {
+    width: 40%;
+  }

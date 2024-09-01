@@ -147,7 +147,6 @@ const Home = () => {
                 </div>
             </section>
 
-            <section><Gridview /></section>
 
             <section className="sectionThree">
                 <h2>Services For Every Occasion</h2>
@@ -249,7 +248,6 @@ const Home = () => {
             </section>
 
             {/* Footer */}
-            <Footer />
         </div>
     );
 };

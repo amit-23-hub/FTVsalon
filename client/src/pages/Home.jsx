@@ -66,7 +66,7 @@ const Home = () => {
                         <li><Link target='_blank' to="/services">Service</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                         <li><Link to="/sign-up">SignUp</Link></li>
-                        
+
                         <li className='wap'>
                             <Link target='_blank' to="https://wa.me/9212758888">
                                 <FontAwesomeIcon icon={faWhatsapp} />
@@ -146,6 +146,8 @@ const Home = () => {
                     <p className="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aut odio vitae. Voluptatibus deleniti at ullam error, voluptates pariatur quibusdam! Corporis corrupti in molestias consequuntur dolorum eligendi vel animi suscipit!</p>
                 </div>
             </section>
+
+            <section><Gridview /></section>
 
             <section className="sectionThree">
                 <h2>Services For Every Occasion</h2>
@@ -244,8 +246,10 @@ const Home = () => {
                 </div>
 
                 <p>DUE TO FASHIONTV’S BRAND POPULARITY AND OUR CUSTOMERS LOVE TO POST, LIKE, SHARE, COMMENT, CHECK-IN, TAKE PICTURES, SHOOT VIDEOS, TAG, AND MORE IN ALL OF OUR LOCATIONS.</p>
-
             </section>
+
+            {/* Footer */}
+            <Footer />
         </div>
     );
 };

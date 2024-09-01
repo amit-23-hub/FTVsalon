@@ -27,6 +27,7 @@
 
 body {
     overflow-x: hidden;
+
 }
 
 header {
@@ -40,6 +41,21 @@ header {
     z-index: 99999999999999999999999;
 
 }
+header {
+    position: fixed; /* Changed from absolute to fixed */
+    height: 86px;
+    width: 100%;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99999999999999999999999;
+    background-color: transparent; /* Added to make navbar transparent when at top */
+  transition: background-color 0.3s ease;
+  }
+  header.scrolled {
+    background-color: rgba(0, 0, 0, 0.2); /* Light background color */
+  }
 
 header .logo {
     color: var(--global-color-1);
@@ -207,7 +223,10 @@ header ul li a:hover {
     color: var(--global-color-4);
     color: plum;
 }
-
+.frontPage
+{
+    overflow: hidden;
+}
 .sectionFirst::after {
     content: '';
     position: absolute;
@@ -691,4 +710,14 @@ header ul li a:hover {
 
 .mission-button:hover {
     background-color: #0056b3; /* Adjust hover color as needed */
+
+}
+
+.slick-prev, .slick-next {
+    color: #fff; /* Arrow color */
+    z-index: 1; /* Ensures arrows are visible */
+}
+
+.slick-dots li button:before {
+    color: #fff; /* Dot color */
 }

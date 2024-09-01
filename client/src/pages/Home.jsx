@@ -4,10 +4,17 @@ import { faFacebookF, faGoogle, faInstagram, faWhatsapp } from '@fortawesome/fre
 import { Link, useNavigate } from 'react-router-dom';
 import './HomeCSS/home.css';
 import './HomeCSS/MediaQuery.css';
+import Slider from 'react-slick';
+
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 const Home = () => {
     const [menuActive, setMenuActive] = useState(false);
+
     const navigate = useNavigate();
+    const [scrolled, setScrolled] = useState(false);
+
 
     useEffect(() => {
         const header = document.querySelector('header');
@@ -20,16 +27,36 @@ const Home = () => {
             header.classList.remove('active');
             section.classList.remove('active');
         }
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 0) {
+              setScrolled(true);
+            } else {
+              setScrolled(false);
+            }
+          });
     }, [menuActive, navigate]);
 
     const toggleMenu = () => {
         setMenuActive(!menuActive);
     };
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: true
+    };
+
+    
 
     return (
         <div>
-            <header className={menuActive ? 'active' : ''}>
-                <Link to="/" className="logo">FTV Salon</Link>
+      <header className={`${menuActive ? 'active' : ''} ${scrolled ? 'scrolled' : ''}`}>
+      <Link to="/" className="logo">FTV Salon</Link>
                 <div className="menuToggle" onClick={toggleMenu}></div>
                 <nav>
                     <ul>
@@ -49,8 +76,11 @@ const Home = () => {
                 </nav>
             </header>
 
-            <section className={`sectionFirst ${menuActive ? 'active' : ''}`}>
-                <div className="frontPage">
+            <section className={`sectionFirst ${menuActive ? 'active' : ''}`} >
+            <Slider {...settings} style={{ overflow: 'hidden' }}>
+
+                <div className="frontPage" style={{ backgroundImage: 'url(./img/background180.svg)' }}
+                >
                     <div className="address">Be the most beautiful and fashionable person</div>
                     <h2 className="heading">FTV Beauty Salon</h2>
                     <p className="paragra">
@@ -59,13 +89,10 @@ const Home = () => {
                         <br />
                         WE ASPIRE TO BECOME THE LEADER OF LUXURY SALON BUSINESS IN INDIA PROVIDING WORLD-CLASS SALON TREATMENT TO OUR CLIENTS.
                     </p>
-
                     <div className="btn">
                         <Link to="/about">About Us</Link>
-
                     </div>
-
-                    {/* Add the new button here */}
+                    {/* New buttons */}
                     <div className="btn">
                         <button
                             className="mission-button"
@@ -73,7 +100,6 @@ const Home = () => {
                         >
                             Learn About Our Mission and Goals
                         </button>
-
                         <button
                             className="mission-button"
                             onClick={() => navigate('/chatAI')}
@@ -83,10 +109,28 @@ const Home = () => {
                     </div>
                 </div>
 
-                <section className="transform-img">
+                {/* Add more slides here as needed */}
+                <div className="frontPage" style={{ backgroundImage: 'url(./img/)' }}>
+                    {/* Duplicate and customize the content for more slides */}
+                    <div className="address">Your Unique Style, Our Expertise</div>
+                    <h2 className="heading">Exclusive Treatments</h2>
+                    <p className="paragra">
+                        EXPERIENCE LUXURY AND BEAUTY LIKE NEVER BEFORE AT FTV SALON.
+                        <br />
+                        JOIN US FOR A JOURNEY OF STYLE AND ELEGANCE.
+                    </p>
+                    <div className="btn">
+                        <Link to="/services">Our Services</Link>
+                    </div>
+                </div>
+
+            </Slider>
+
+            <section className="transform-img">
                     <img src="./img/background180.svg" alt="Background" />
                 </section>
-            </section>
+
+        </section>
 
             <section className="sectionSecond">
                 <div className="fourIMG">

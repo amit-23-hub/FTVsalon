@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/header';
+import Footer from '../components/footer'
 import './Contact.css';
 
 const Contact = () => {
@@ -104,42 +105,8 @@ const Contact = () => {
         </div>
         
       </div>
-      <footer className="footer">
-        <div className="footer-content">
-          <div className="footer-section">
-            <h2>GET TO KNOW THE RIGHT COURSE FOR YOU?</h2>
-            <p>Enquiry Now</p>
-            <p>Contact Us</p>
-            <p>FTV Salon Academy</p>
-            <p>Launchpad of your truly International Career with flexible courses at your time and your pace in FTV Salon Academy.</p>
-          </div>
-          <div className="footer-section footer-logo">
-            <img src="https://www.ftvsalonacademy.org/wp-content/uploads/2017/07/ftvmain-logo-wh.png" alt="FTV Salon Academy Logo" />
-          </div>
-          <div className="footer-section">
-            <h2>Quick Links</h2>
-            <a href="#">Calibre With Courses</a>
-            <a href="#">Why Us</a>
-            <a href="#">About Us</a>
-            <a href="#">FAQ</a>
-            <a href="#">Contact Us</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Franchise Opportunity</a>
-            <a href="#">Online Learning Program</a>
-            <a href="#">Download Certificate</a>
-          </div>
-          <div className="footer-section">
-            <h2>GET IN TOUCH</h2>
-            <p>phone</p>
-            <p>+91 9266665444</p>
-            <p>info@fsalonacademy.org</p>
-          </div>
-          <div className="footer-section footer-socials">
-            <p>FOLLOW US</p>
-            <p>Call Now</p>
-          </div>
-        </div>
-      </footer>
+      
+      <Footer/>
 
     </div>
   );

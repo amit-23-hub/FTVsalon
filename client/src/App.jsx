@@ -11,6 +11,7 @@ import Signin from './pages/Signin';
 import Signup from './pages/Signup';
 import About from './pages/about';
 import Blog from './pages/Blog';
+import Contact from './pages/Contact';
 import ChatComponent from './pages/chatComponent';
 
 
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/blog" element={<Blog/>}></Route>
+        <Route path="/contact" element={<Contact/>}></Route>
         <Route path='/sign-in' element={<Signin />} />
         <Route path='/sign-up' element={<Signup />} />
         <Route path='/dashboard' element={<Dashaboard />} />

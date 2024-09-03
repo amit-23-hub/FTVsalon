@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Custom styles */
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .transition-transform {
+    transition: transform 0.5s;
+  }
+  
+  .hover-scale-105:hover {
+    transform: scale(1.05);
+  }
+  
+  .img-square {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    object-fit: cover;
+  }
+
+.img-square {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+}

@@ -1,0 +1,132 @@
+.footer {
+  background-color: #666666;
+  padding: 40px 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 20px;
+}
+
+
+
+.footer-logo, .footer-fashiontv-logo {
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.red-line {
+  width: 50px;
+  height: 3px;
+  background-color: red;
+  margin: 10px 0;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.footer22 {
+  width: 40%;
+}
+
+/* New CSS for the updated second column */
+.quick-links-container {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.quick-links-container ul {
+  list-style-type: none; /* Removes the default bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+.quick-links-container li {
+  margin-bottom: 10px; /* Adjust as needed for spacing between items */
+}
+
+.quick-links-container a {
+  text-decoration: none; /* Removes underline from links */
+  color: #ffffff; /* Adjust color as needed */
+}
+
+
+
+
+
+/* Updated CSS for Third Column */
+.get-in-touch .contact-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.contact-icon {
+  color: red; /* Style for the icons */
+  margin-right: 3px;
+  font-size: 18px; /* Adjust the icon size as needed */
+  font-weight: bold; /* Make text bold */
+
+}
+
+.contact-icon22
+{
+  border: 1px solid red;
+  height: 1%;
+  width: 3%;
+  position: relative; /* Allows for shifting the element */
+  top: -18px;  /* Adjust this value to move the element upwards */
+  left: 20px; 
+
+}
+
+.contact-text {
+  font-size: 16px; /* Adjust font size to match the design */
+  color: #ffffff;
+
+}
+
+.contact-text1
+{
+  margin-left: 16%;
+  margin-top: -6%;
+}
+
+.red-line {
+  width: 50px;
+  height: 3px;
+  background-color: red;
+  margin: 10px 0;
+}

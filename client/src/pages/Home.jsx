@@ -143,7 +143,7 @@ const Home = () => {
                 <div className="textInfo">
                     <div className="greet">Welcome To</div>
                     <h2 className="title">FTV Beauty Salon</h2>
-                    <p className="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aut odio vitae. Voluptatibus deleniti at ullam error, voluptates pariatur quibusdam! Corporis corrupti in molestias consequuntur dolorum eligendi vel animi suscipit!</p>
+                    <p className="para">Lorem ipsum dolor sit amit  consectetur adipisicing elit. Nulla aut odio vitae. Voluptatibus deleniti at ullam error, voluptates pariatur quibusdam! Corporis corrupti in molestias consequuntur dolorum eligendi vel animi suscipit!</p>
                 </div>
             </section>
 

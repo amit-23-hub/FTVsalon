@@ -62,7 +62,7 @@ const Home = () => {
                     <ul>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
-                        <li><Link to="/blog"> Blogs</Link></li>
+                        <li><Link to="/blog"> Blog</Link></li>
                         <li><Link target='_blank' to="/services">Service</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                         <li><Link to="/sign-up">SignUp</Link></li>
@@ -143,7 +143,7 @@ const Home = () => {
                 <div className="textInfo">
                     <div className="greet">Welcome To</div>
                     <h2 className="title">FTV Beauty Salon</h2>
-                    <p className="para">Lorem ipsum dolor sit amit  consectetur adipisicing elit. Nulla aut odio vitae. Voluptatibus deleniti at ullam error, voluptates pariatur quibusdam! Corporis corrupti in molestias consequuntur dolorum eligendi vel animi suscipit!</p>
+                    <p className="para">Lorem ipsum dolor sit amet  consectetur adipisicing elit. Nulla aut odio vitae. Voluptatibus deleniti at ullam error, voluptates pariatur quibusdam! Corporis corrupti in molestias consequuntur dolorum eligendi vel animi suscipit!</p>
                 </div>
             </section>
 

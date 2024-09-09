@@ -1,25 +1,28 @@
 
 import { motion } from 'framer-motion';
+import image1 from '../../../img/contest_images/model3.jpeg';
+import image2 from '../../../img/contest_images/event1.jpeg';
+import image3 from '../../../img/contest_images/model4.jpeg';
 
 const challenges = [
     { 
       title: 'Fashion Design Challenge', 
       description: 'Participants showcase their creativity by designing a unique fashion outfit based on a given theme.', 
-      image: '/src/assets/model5.jpeg', 
+      image: image1, 
       registrationLink: '#register-fashion-design', 
       challengeLink: '#fashion-design-challenge' 
     },
     { 
       title: 'Talent Showcase Competition', 
       description: 'An opportunity for contestants to demonstrate their unique talents, from singing to dancing to magic tricks.', 
-      image: '/src/assets/result4.jpeg', 
+      image: image2, 
       registrationLink: '#register-talent-showcase', 
       challengeLink: '#talent-showcase-competition' 
     },
     { 
         title: 'New Component', 
         description: 'An opportunity for contestants to demonstrate their unique talents, from singing to dancing to magic tricks.', 
-        image: '/src/assets/result3.jpeg', 
+        image: image3, 
         registrationLink: '#register-talent-showcase', 
         challengeLink: '#talent-showcase-competition' 
       },

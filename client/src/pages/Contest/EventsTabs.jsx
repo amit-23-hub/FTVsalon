@@ -1,18 +1,22 @@
 import  { useState } from 'react';
 import { motion } from 'framer-motion';
+import image1 from '../../../img/contest_images/result1.jpeg';
+import image2 from '../../../img/contest_images/result2.jpeg';
+import image3 from '../../../img/contest_images/event1.jpeg';
+import image4 from '../../../img/contest_images/event2.jpeg';
 
 const eventsData = {
     live: [
-        { title: 'Grand Fashion Gala', description: 'Join us for an evening filled with elegance and high fashion as we showcase the latest trends and styles.', image: '/src/assets/event1.jpeg', link: '#' },
-        { title: 'Beauty Queen Pageant', description: 'Watch the top contestants compete for the title of Beauty Queen in a grand celebration of beauty and grace.', image: '/src/assets/event2.jpeg', link: '#' },
+        { title: 'Grand Fashion Gala', description: 'Join us for an evening filled with elegance and high fashion as we showcase the latest trends and styles.', image: image1, link: '#' },
+        { title: 'Beauty Queen Pageant', description: 'Watch the top contestants compete for the title of Beauty Queen in a grand celebration of beauty and grace.', image: image2, link: '#' },
       ],
       upcoming: [
-        { title: 'Winter Wonderland Contest', description: 'Celebrate the winter season with our Winter Wonderland Contest featuring dazzling winter-themed beauty and fashion.', image: '/src/assets/event3.jpeg', link: '#' },
-        { title: 'Summer Style Showdown', description: 'Prepare for a vibrant showcase of summer fashion trends and styles in our Summer Style Showdown.', image: '/src/assets/event1.jpeg', link: '#' },
+        { title: 'Winter Wonderland Contest', description: 'Celebrate the winter season with our Winter Wonderland Contest featuring dazzling winter-themed beauty and fashion.', image: image3, link: '#' },
+        { title: 'Summer Style Showdown', description: 'Prepare for a vibrant showcase of summer fashion trends and styles in our Summer Style Showdown.', image: image2, link: '#' },
       ],
       past: [
-        { title: 'Spring Blossom Extravaganza', description: 'Relive the beauty of spring with our Spring Blossom Extravaganza, featuring floral-themed fashion and design.', image: '/src/assets/event2.jpeg', link: '#' },
-        { title: 'Autumn Elegance Showcase', description: 'Enjoy a retrospective of autumn fashion trends at the Autumn Elegance Showcase, highlighting classic fall styles.', image: '/src/assets/event3.jpeg', link: '#' },
+        { title: 'Spring Blossom Extravaganza', description: 'Relive the beauty of spring with our Spring Blossom Extravaganza, featuring floral-themed fashion and design.', image: image4, link: '#' },
+        { title: 'Autumn Elegance Showcase', description: 'Enjoy a retrospective of autumn fashion trends at the Autumn Elegance Showcase, highlighting classic fall styles.', image: image1, link: '#' },
       ],
 };
 

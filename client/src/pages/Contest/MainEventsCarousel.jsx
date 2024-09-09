@@ -1,24 +1,26 @@
 
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import image1 from '../../../img/contest_images/crousel1.webp';
+
 
 const mainEvents = [
   {
     name: 'Grand Finale',
     description: 'Join us for the grand finale of the beauty contest!',
-    image: '/src/assets/crousel1.webp',
+    image: image1,
     link: '#'
   },
   {
     name: 'Fashion Show',
     description: 'Witness stunning fashion shows from top designers.',
-    image: '/src/assets/crousel1.webp',
+    image: image1,
     link: '#'
   },
   {
     name: 'Talent Showcase',
     description: 'See incredible talents from our participants.',
-    image: '/src/assets/crousel1.webp',
+    image: image1,
     link: '#'
   }
 ];

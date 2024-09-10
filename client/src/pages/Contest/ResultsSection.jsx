@@ -1,9 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import image1 from '../../../img/contest_images/result1.jpeg';
+import image2 from '../../../img/contest_images/result2.jpeg';
 
 const results = [
-    { title: 'Miss Universe 2024', description: 'Awarded to the most exceptional contestant for her outstanding performance, elegance, and charisma.', image: '/src/assets/result1.jpeg' },
-    { title: 'Best Talent Performance', description: 'Recognized for the most impressive talent showcase that captivated the judges and audience alike.', image: '/src/assets/result2.jpeg' },
+    { title: 'Miss Universe 2024', description: 'Awarded to the most exceptional contestant for her outstanding performance, elegance, and charisma.', image: image1 },
+    { title: 'Best Talent Performance', description: 'Recognized for the most impressive talent showcase that captivated the judges and audience alike.', image: image2 },
   ];
 
 const ResultsSection = ({ searchQuery }) => {

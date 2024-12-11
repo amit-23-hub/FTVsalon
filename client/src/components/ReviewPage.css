@@ -1,0 +1,47 @@
+/* App.css */
+.review-card {
+    transition: transform 0.3s ease;
+  }
+  
+  .review-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-header {
+    position: relative;
+  }
+  
+  .rating-circle {
+    font-size: 1.2rem;
+  }
+  
+  .star-rating {
+    font-size: 0.9rem;
+  }
+  
+  .review-card img {
+    border-radius: 50%;
+    border: 4px solid white;
+  }
+  
+  .review-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Custom background colors */
+  .bg-yellow-100 {
+    background-color: #fff9c4;
+  }
+  
+  .bg-black {
+    background-color: #000;
+  }
+  
+  .bg-pink-500 {
+    background-color: #ec4899;
+  }
+  
+  .card {
+    transform: scale(0.9);
+  }
+  
